@@ -10,6 +10,8 @@ scp fastai_aws_setup.sh ubuntu@"$instance_ip":~/
 scp ~/.kaggle/kaggle.json ubuntu@"$instance_ip":~/
 
 
+# send git config file
+scp ~/.gitconfig ubuntu@"$instance_ip":~/.gitconfig
 # send github access key 
 # TODO 
 
