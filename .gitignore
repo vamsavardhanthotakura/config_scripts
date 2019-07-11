@@ -1,0 +1,8 @@
+
+# Dont include any files in input and data directories. 
+
+**/input
+**/data
+
+# Dont include csv files
+**/*.csv
